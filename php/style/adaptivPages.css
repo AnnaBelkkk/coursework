@@ -1,0 +1,457 @@
+@media screen and (max-width: 1850px) {
+    .container__header {
+        height: 10%;
+    }
+    .card_content_service {
+        width: 1289px;
+    }
+    .text_service {
+        width: 524px;
+    }
+    .img_service, .images_service{
+        width: 648px;
+        height: 515px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .card_content_news {
+        width: 1046px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 723px;
+        gap: 20px;
+    }
+    .news {
+        height: 6603px;
+        gap: 165px;
+    }
+    .itemttile, .itemtitlebefore {
+        font-size: 28px;
+    }
+    .itemtext {
+        font-size: 20px;
+    }
+    .title_news{
+        padding-bottom: 20px;
+    }
+    .siderImg_spiritual {
+        width: 701px;
+        height: 421px;
+    }
+    .carousel {
+        width: 701px;
+        height: 421px;
+    }
+    .card_content_service {
+        width: 1065px;
+        gap: 45px;
+    }
+    .img_service, .images_service{
+        width: 502px;
+        height: 315px;
+    }
+    .images_medical {
+        width: 945px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 945px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 439px;
+        height: 285px;
+    }
+    .carousel_thank{
+        width: 427px;
+    }
+    .thank{
+        width: 427px;
+    }
+    .images_contacts {
+        width: 427px;
+        height: 218px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+    .contacts{
+        width: 426px;
+    }
+    .text_contacts{
+        width: 426px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .img_news {
+        width: 326px;
+        height: 306px;
+    }
+    .itemttile, .itemtitlebefore {
+        font-size: 25px;
+    }
+    .itemtext {
+        font-size: 18px;
+    }
+    .card_content_news {
+        width: 869px;
+    }
+    .footer__content {
+        height: 36px;
+    }
+    .card_content_service {
+        width: 536px;
+        gap: 45px;
+        flex-direction: column-reverse;
+    }
+    .content_block {
+        margin: -56px auto;
+    }
+    .img_service, .images_service{
+        width: 527px;
+        height: 336px;
+    }
+    .images_medical {
+        width: 745px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 745px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 335px;
+        height: 201px;
+    }
+    .carousel_thank{
+        width: 427px;
+    }
+    .thank{
+        width: 427px;
+    }
+    .images_contacts {
+        width: 427px;
+        height: 218px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+    .contacts{
+        width: 426px;
+    }
+    .text_contacts{
+        width: 426px;
+    }
+
+
+}
+@media screen and (max-width: 1060px) {
+    .visually_text, .input_search {
+        display: none;
+    }
+    .img_news {
+        width: 326px;
+        height: 306px;
+    }
+    .itemttile, .itemtitlebefore {
+        font-size: 25px;
+    }
+    .itemtext {
+        font-size: 18px;
+    }
+    .card_content_news {
+        width: 869px;
+    }
+    .footer__content {
+        height: 36px;
+    }
+    .news {
+        height: 5115px;
+        gap: 23px;
+    }
+    .card_content_news {
+        gap: 20px;
+    }
+    .images_medical {
+        width: 449px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 379px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 449px;
+        height: 264px;
+    }
+    .img_medical:nth-child(2){
+        display: none;
+    }
+    .carousel_thank{
+        width: 427px;
+    }
+    .thank{
+        width: 427px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .card_content_news {
+        width: 673px;
+        height: 604px;
+        display: flex;
+        flex-direction: column;
+        background-color: #6C584F;
+        border: 0px;
+        align-items: center;
+        gap: 50px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 449px;
+        gap: 20px;
+    }
+    .news {
+        height: 7387px;
+        gap: 59px;
+    }
+    .itemttile, .itemtitlebefore {
+       text-align: justify;
+    }
+    .itemtext {
+        text-align: justify;
+    }
+    .carousel {
+        width: 450px;
+        height: 282px;
+    }
+    .siderImg_spiritual {
+        width: 450px;
+        height: 282px;
+    }
+    .images_medical {
+        width: 372px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 379px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 373px;
+        height: 254px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .card_content_news {
+        width: 411px;
+        height: 740px;
+    }
+    .news {
+        height: 8445px;
+    }
+    .visually_text, .input_search {
+        display: none;
+    }
+    .footer_text {
+        font-size: 14px;
+    }
+    .footer__content {
+        height: 45px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 323px;
+        gap: 20px;
+    }
+    .itemtext{
+        text-align: start;
+    }
+    .itemtitle{
+        text-align: start;
+    }
+    .carousel {
+        width: 323px;
+        height: 198px;
+    }
+    .siderImg_spiritual {
+        width: 323px;
+        height: 198px;
+    }
+    .card_content_service {
+        width: 330px;
+        gap: 30px;
+    }
+    .text_service, .text_content_service{
+        width: 300px;
+    }
+    .img_service, .images_service{
+        width: 327px;
+        height: 198px;
+    }
+    .images_medical {
+        width: 372px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 379px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 373px;
+        height: 254px;
+    }
+    .carousel_thank{
+        width: 327px;
+    }
+    .thank{
+        width: 327px;
+    }
+    .siderImg_thank{
+        width: 327px;
+    }
+    .images_contacts {
+        width: 327px;
+        height: 218px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+    .contacts{
+        width: 326px;
+    }
+    .text_contacts{
+        width: 326px;
+    }
+    .images_contacts {
+        width: 317px;
+        height: 208px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width: 485px) {
+    .card_content_news {
+        gap: 13px;
+        width: 337px;
+        height: 740px;
+    }
+    .images_medical {
+        width: 256px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 256px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 256px;
+        height: 169px;
+    }
+    .carousel_thank{
+        width: 227px;
+    }
+    .thank{
+        width: 227px;
+    }
+    .siderImg_thank{
+        width: 227px;
+    }
+    .images_contacts {
+        width: 327px;
+        height: 218px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+    .contacts{
+        width: 326px;
+    }
+    .text_contacts{
+        width: 326px;
+    }
+
+}
+@media screen and (max-width: 430px) {
+    .card_content_news {
+        gap: 13px;
+        width: 212px;
+        height: 907px;
+    }
+    .img_news {
+        width: 224px;
+        height: 196px;
+    }
+    .itemttile, .itemtitlebefore {
+        font-size: 20px;
+        text-align: center;
+    }
+    .itemtext {
+        font-size: 16px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 227px;
+        gap: 20px;
+    }
+    .footer__container {
+        height: 75px;
+        display: flex;
+        align-items: center;
+        background-color: #D9D9D9;
+        left: 0;
+        position: absolute;
+        right: 0;
+    }
+    .carousel {
+        width: 230px;
+        height: 140px;
+    }
+    .siderImg_spiritual {
+        width: 230px;
+        height: 140px;
+    }
+    .card_content_service {
+        width: 250px;
+        gap: 30px;
+    }
+    .text_service, .text_content_service{
+        width: 240px;
+    }
+    .img_service, .images_service{
+        width: 250px;
+        height: 150px;
+    }
+    .images_medical {
+        width: 256px;
+        gap: 69px;
+    }
+    .intelligence, .organization, .spiritual, .social, .education, .help, .schedule, .thank, .medical, .contacts, .base, .structure, .documents, .educations, .educationStandart, .teacher, .security, .scholarship, .available, .international {
+        width: 256px;
+        gap: 20px;
+    }
+    .img_medical{
+        width: 256px;
+        height: 169px;
+    }
+    .carousel_thank{
+        width: 197px;
+    }
+    .thank{
+        width: 197px;
+    }
+    .siderImg_thank{
+        width: 197px;
+    }
+    .images_contacts {
+        width: 327px;
+        height: 218px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+    .contacts{
+        width: 226px;
+    }
+    .text_contacts{
+        width: 226px;
+    }
+    .images_contacts {
+        width: 217px;
+        height: 308px;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+}

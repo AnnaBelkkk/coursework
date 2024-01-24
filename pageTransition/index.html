@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/bear.svg">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/stylePage.css">
+    <link rel="stylesheet" href="../style/adaptivPages.css">
+    <script defer src="../script/bootstrap.bundle.min.js"></script>
+    <script defer type="module" src="../script/script.js"></script>
+    <script defer type="module" src="../script/scriptFunctional.js"></script>
+    <script defer type="module" src="../script/scriptPage.js"></script>
+    <script defer type="module" src="../script/scriptPageTransition.js"></script>
+    <script defer type="module" src="../script/helpme.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"  type="text/javascript"></script>
+    <title>Семейный центр</title>
+</head>
+<body id="element">
+<div class="wrapper container-fluid">
+    <header class="header">
+        <div class="container__header">
+            <div tabindex='0' class="header__menu">
+                <div class="header_logo" tabindex='0' aria-haspopup="logo" aria-label="логотип">
+                    <button class="logo" aria-label="перейти на главную">
+                        <a href="../index.html">
+                            <img class="header_img" src="../img/logo.png" alt="Логотип">
+                        </a>
+                    </button>
+                </div>
+                <div class="header__select">
+                    <li class="header__select_item">
+                        <a class="title_nav" id="select_home"  href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false"> Главная </a> <img class="select_img" src=".././img/arrowMenu.png">
+                        <ul class="dropdown-menu"  aria-label="открыть меню">
+                            <li><a class="dropdown-item" id="home" href="../index.html">Главная</a></li>
+                            <li><a class="dropdown-item" id="news" href="index.html?=news">Новости</a></li>
+                            <li><a class="dropdown-item" id="intelligence" href="index.html?=intelligence">Сведения об организации социального обслуживания</a></li>
+                            <li><a class="dropdown-item" id="organization" href="index.html?=organization">Организация питания в образовательной организации</a></li>
+                            <li><a class="dropdown-item" id="spiritual" href="index.html?=spiritual">Духовное воспитание</a></li>
+                            <li><a class="dropdown-item" id="service" href="index.html?=service">Служба сопровождения замещающих семей</a></li>
+                            <li><a class="dropdown-item" id="medical" href="index.html?=medical">Медицинское обслуживание</a></li>
+                            <li><a class="dropdown-item" id="education" href="index.html?=education">Образовательные программы</a></li>
+                            <li><a class="dropdown-item" id="social" href="index.html?=social">Социальные услуги</a></li>
+                            <li><a class="dropdown-item" id="thank" href="index.html?=thank">Благодарности</a></li>
+                            <li><a class="dropdown-item" id="contacts" href="index.html?=contacts">Контакты</a></li>
+                            <li><a class="dropdown-item" id="help" href="index.html?=help">Помощь</a></li>
+                            <li><a class="dropdown-item" id="schedule" href="index.html?=schedule">График посещения учреждения</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" id="electronic" href="http://project/electronicUsing.php">Электронная приемная</a></li>
+                            <li><a class="dropdown-item" id="recording" href="http://project/entrance.php">Записаться в приемную комиссию</a></li>
+                        </ul>
+                    </li>
+                </div>
+
+                <div class="header__search">
+                    <form id="search_form" tabindex='0' aria-haspopup="поиск по сайту" alt="поиск по сайту" aria-label="поиск по сайту">
+                        <input type="search" tabindex='0' aria-label="поле ввода" class="input_search" name="text" placeholder="Поиск по сайту">
+                        <input tabindex='0' aria-label="кнопка для выполнения поиска" type="submit" class="search_img" >
+                    </form>
+                </div>
+                <div class="header__profile" tabindex='0' alt="переход в профиль или регистрация" aria-label="переход в профиль или регистрация">
+                    <button class="profile">
+                        <a href="http://project/entrance.php"><img class="profile_img" src=".././img/profile.svg"></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main_container">
+            <div class="main__block" tabindex='0' aria-label="основная информация">
+                <div class="content_block" id="content_block">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container" tabindex='0' aria-label="дополнительная информация">
+            <div class="block_item footer__content">
+                <p  tabindex='0' class="footer_text">
+                    Государственное бюджетное стационарное учреждение социального обслуживания Московской области
+                    «Семейный центр имени А.И. Мещерякова».
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

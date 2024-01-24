@@ -1,0 +1,481 @@
+@media screen and (max-width: 1700px) {
+    .description, .emailMes, .adres, .FullName, .login, .password, .password_two, .email {
+        width: 645px;
+        height: 77px;
+    }
+
+    .description {
+        color: black;
+        width: 501px;
+        height: 276px;
+    }
+
+    .p_text_content {
+        width: 1370px;
+    }
+
+    .main_container, .main_container_two {
+        width: 1440px;
+    }
+
+    .container__header {
+        height: 45px;
+    }
+
+    .login_password, .login_content {
+        gap: 16px;
+    }
+
+    .admin_data {
+        width: 1249px;
+    }
+
+    .data_user {
+        width: 526px;
+        height: 77px;
+        background-color: #D9D9D9;
+        border-radius: 20px;
+        border: 3px solid white;
+        color: #2D4048;
+        padding: 20px;
+        font-family: "Heebo", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 143.1%;
+    }
+
+    .btn_form_data, .logout, .text_Img_Input {
+        width: 526px;
+        height: 77px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logout, .user_aplication_status {
+        width: 150px;
+        height: 54px;
+        border: 3px solid white;
+        color: white;
+        font-family: "Heebo", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 143.1%;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .content_users{
+        gap: 20px;
+        width: 1160px;
+    }
+    .entrance {
+        width: 977px;
+    }
+    .table_users,.admin_title_content_base{
+        width: 790px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .message_blocks_content {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin: auto;
+        width: 638px;
+    }
+    .main{
+        height: 1340px;
+    }
+    .login_password, .login_content {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .admin_data, .content_users,.table_users {
+        width: 804px;
+    }
+
+    .content_users, .users_options, .admin_title_content {
+        gap: 7px;
+    }
+
+    .content_users {
+        margin-left: -111px;
+    }
+
+    .main_container, .main_container_two {
+        margin: 0 auto;
+        height: 1332px;
+        width: 1024px;
+    }
+
+    .p_text_content {
+        width: 783px;
+    }
+
+    .entrance, .entrance_message {
+        width: 560px;
+    }
+
+    .visually_text, .input_search {
+        display: none;
+    }
+
+    .form {
+        margin-left: 34px;
+    }
+
+    .profile_data {
+        flex-direction: column;
+        width: 610px;
+    }
+    .admin_title_content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .profile_content_user{
+    flex-direction: column;
+    }
+    .profile_data {
+        flex-direction: column;
+        width: 404px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .main_container, .main_container_two {
+        width: 803px;
+    }
+
+    .p_text_content {
+        width: 633px;
+    }
+
+    .login, .password, .password_two, .email {
+        width: 438px;
+    }
+
+    .admin_data, .content_users {
+        width: 558px;
+    }
+
+    .p_text_td, .users_text {
+        font-size: 16px;
+    }
+
+    .admin_title_content_base {
+        width: 567px;
+    }
+    .content_users {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .table_users, .admin_title_content_base {
+        width: 830px;
+    }
+    .entrance{
+        width: 390px;
+    }
+    .table_users,.admin_data{
+        width: 100%;
+        overflow-x: auto;
+        min-width: 560px;
+    }
+    .admin_title_content_base {
+        width: 575px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .main_container, .main_container_two {
+        width: 459px;
+    }
+
+    .message_blocks_content {
+        padding-left: 15px;
+    }
+
+    .p_text_content {
+        width: 500px;
+    }
+
+    .verific {
+        padding-left: 52px;
+    }
+
+    .message_blocks_content, .verific {
+        width: 491px;
+    }
+
+    .p_text {
+        width: 500px;
+    }
+    .fieldTitle{
+        flex-direction: column;
+    }
+    .img-image {
+        width: 250px;
+        height: 233px;
+        border: 0;
+        margin-bottom: 40px;
+    }
+    .description, .emailMes, .adres, .FullName {
+        width: 438px;
+        height: 50px;
+    }
+
+    .login, .password, .password_two, .email {
+        width: 338px;
+    }
+
+    .description {
+        color: black;
+        width: 492px;
+        height: 276px;
+    }
+
+    .footer__content {
+        height: 53px;
+    }
+
+    .del, .edi {
+        width: 50px;
+    }
+
+    .id {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fullname {
+        width: 250px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .status {
+        width: 20px;
+        text-align: center;
+    }
+
+
+
+    .footer_text {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    input {
+        text-indent: 10px;
+    }
+
+    .profile_content {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .data_user {
+        width: 372px;
+        height: 77px;
+    }
+
+    .btn_form_data, .text_Img_Input {
+        width: 379px;
+        height: 77px;
+    }
+
+    .profile_data {
+        flex-direction: column;
+        width: 482px;
+    }
+
+
+    .prof {
+        padding-top: 80px;
+        margin-left: 23px;
+    }
+    .profile_data {
+        flex-direction: column;
+        width: 372px;
+    }
+    .profile_admin {
+        padding-top: 100px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .form_btn_send{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .main_container, .main_container_two {
+        width: 317px;
+    }
+
+    .p_text, .p_text_content {
+        width: 346px;
+        font-size: 14px;
+    }
+
+    .p_text_content {
+        width: 311px;
+    }
+
+    .verific {
+        padding-left: 52px;
+    }
+    .fieldTitle{
+        flex-direction: column;
+    }
+    .message_blocks_content, .verific {
+        width: 319px;
+        margin: 0px;
+        padding-left: 5px;
+    }
+
+    .entrance {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+
+    .description, .emailMes, .adres, .FullName, .login, .password, .password_two, .email {
+        width: 290px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .login::placeholder, .password::placeholder, .password_two::placeholder, .fullName::placeholder, .email::placeholder {
+        font-size: 20px;
+    }
+
+    .description {
+        color: black;
+        width: 293px;
+        height: 190px;
+        font-size: 20px;
+    }
+
+    input {
+        text-indent: 10px;
+    }
+
+    .footer__content {
+        height: 80px;
+    }
+
+    .footer_text {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .form {
+        margin-left: 15px;
+    }
+
+    .text_Img_Input {
+        width: 290px;
+        height: 54px;
+    }
+
+    .del, .edi {
+        width: 50px;
+    }
+
+    .id {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fullname {
+        width: 110px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .profile_admin {
+        padding-top: 120px;
+        margin-left: 8px;
+    }
+
+    .status {
+        width: 20px;
+        text-align: center;
+    }
+
+
+    .content_users {
+        padding-left: 110px;
+    }
+
+    .user_name_admin {
+        width: 289px;
+        text-indent: 10px;
+    }
+
+    .form_profile {
+        margin-left: 0;
+    }
+
+    .data_user_img {
+        border: 2px solid white;
+        width: 279px;
+        height: 279px;
+    }
+
+    .profile_data {
+        flex-direction: column;
+        width: 262px;
+    }
+
+    .data_user {
+        width: 270px;
+        height: 143px;
+    }
+
+    .btn_form_data, .text_Img_Input {
+        width: 270px;
+        height: 143px;
+    }
+    .admin_title_content{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .user_aplication_status {
+        margin-top: 20px;
+    }
+
+    .admin_title_content_base{
+        width: 270px;
+        gap: 20px;
+    }
+    .profile_data {
+        flex-direction: column;
+        width: 262px;
+        margin-left: 30px;
+    }
+    .img_profile_exit {
+        width: 271px;
+    }
+    .calendar,.date_time{
+        flex-direction: column;
+    }
+    .form_btn_send{
+        flex-direction: column;
+    }
+    .appointment_date {
+        color: #0A1215;
+        font-weight: 700;
+        width: 275px;
+    }
+    .error_btn_warning{
+        width: 200px;
+    }
+}

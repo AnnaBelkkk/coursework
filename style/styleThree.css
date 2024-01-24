@@ -1,0 +1,338 @@
+.admin_data{
+    width: 1390px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*.admin_form{*/
+/*    width: 1320px;*/
+/*    height: 100px;*/
+/*}*/
+.admin_form{
+    margin-top: 20px;
+}
+.profile_admin{
+    padding-top: 100px;
+    margin-left: 127px;
+    margin-top: 10px;
+}
+.users_options{
+    padding-top: 60px;
+}
+.entrance{
+    width: 1200px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+}
+/*.main_container{*/
+/*    height: 960px;*/
+/*}*/
+.p_text,.p_text_td,.users_text, .p_text_title{
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+    color: white;
+    padding-top: 10px;
+}
+.p_text_title{
+    padding-top: 25px;
+}
+.users_text{
+    color: #0A1215;
+    font-weight: 600;
+}
+.img_admin{
+    width: 35px;
+    height: 35px;
+}
+.content_users,.users_options,.admin_title_content, .admin_title_content_base{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.admin_title_content_base{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.content_users{
+    gap: 20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.login_admin{
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: #D9D9D9;
+    color: #2D4048;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+.user_name_admin{
+    width: 400px;
+    text-indent: 10px;
+}
+.logout{
+    margin-top: 0;
+}
+.btn_form{
+    height: 54px;
+}
+.btn_form{
+    margin-top: 5px;
+}
+.login_admin::placeholder,#currentPage,#totalPages,span{
+    color: #0A1215;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+    text-indent: 5px;
+}
+#currentPage{
+    text-indent: 0px;
+}
+
+.admin_title_content, .admin_title_content_base{
+    text-align: center;
+    justify-content: space-between;
+}
+.admin_title_content{
+    height: 80px;
+}
+.id{
+    width: 30px;
+    height: 80px;
+}
+.fullname{
+    width: 450px;
+    height: 80px;
+    text-align: start;
+}
+.users_text.fullname{
+    text-align: center;
+}
+.status, .cabinet{
+    height: 80px;
+    width: 100px;
+    text-align: center;
+}
+.date{
+    width: 330px;
+    height: 80px;
+}
+.del,.edi{
+    width: 190px;
+    text-align: center;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+    margin: -16px 12px;
+}
+#prevBtn,#nextBtn{
+    background-color: transparent;
+    border: 0;
+}
+.error_btn_warning{
+    color: red;
+}
+.pagination{
+    display: flex;
+   flex-direction: row;
+    gap: 15px;
+    padding-top: 50px;
+   justify-content: end;
+}
+input{
+    text-indent: 5px;
+}
+.main_container {
+    margin: auto;
+    height: 100%;
+    flex: 1 0 auto;
+}
+.today {
+    background-color: lightblue;
+}
+.selected {
+    background-color: red;
+}
+
+#datepicker, #timepicker{
+    background-color: transparent;
+    border: 0px;
+    width: 230px;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+    color: #2D4048;
+}
+#timepicker{
+    width: 150px;
+}
+.btn_form_data_send_and_cancel{
+    width: 220px;
+    height: 50px;
+}
+.form_btn_send,.calendar,.date_time,.profile_content_user,.img_profile_exit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+.img_profile_exit{
+    align-items: center;
+    flex-direction: column;
+
+}
+.calendar{
+    flex-direction: column;
+}
+.form_profile{
+    height: 1000px;
+}
+.profile_content_user{
+    justify-content: space-between;
+}
+.appointment_date,.profile_content_user{
+    color: #0A1215;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+.profile_content{
+    align-items: center;
+}
+.appointment_date{
+    color: #0A1215;
+    font-weight: 700;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.cabinet_info{
+    width: 200px;
+    text-align: start;
+    display: none;
+}
+.date_time,#cancel,#send{
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.table_users{
+    height: 650px;
+}
+/*.main{*/
+/*    height: auto;*/
+/*}*/
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.admin_data{
+    display: none;
+}
+.panel_admin{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.date_record{
+    width: 670px;
+}
+
+#airdatepicker{
+    width: 150px;
+}
+select,#airdatepicker, #airdatepicker::placeholder {
+    border-radius: 5px;
+    width: 240px;
+    color: #0A1215;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+    text-align: center;
+    height: 35px;
+    border: 0;
+}
+option{
+    background-color: white;
+}
+
+/*#contenttext{*/
+/*    padding-top: 100px;*/
+/*}*/
+/*.modalcontent{*/
+/*    height: 200px;*/
+/*    background-color: #0a3622;*/
+/*}*/

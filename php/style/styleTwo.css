@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.element::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/heebocyrillic.ttf");
+}
+
+@font-face {
+    font-family: "Caveat";
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    src: url("../fonts/Caveat.ttf");
+}
+
+.dropdown-menu {
+    z-index: 4;
+}
+
+.img__text {
+    font-family: "Caveat", sans-serif;
+    z-index: 0;
+    position: absolute;
+    font-size: 48px;
+    margin-top: 117px;
+    margin-left: 41px;
+    color: white;
+    -webkit-text-stroke: 2px #69755F;
+    text-stroke: 2px #69755F;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container__header {
+    left: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 6%;
+    z-index: 1;
+}
+
+.header_img {
+    width: 38px;
+    height: 38px;
+}
+
+#select_home {
+    font-family: "Heebo", sans-serif;
+}
+
+#idHeaderMenu {
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    background-color: #69755F;
+}
+
+.header__select_item {
+    list-style-type: none;
+}
+
+.select_img {
+    width: 18px;
+    height: 16px;
+}
+
+.dropdown-item {
+    background-color: #69755F;
+    color: white;
+    font-family: "Heebo", sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: #2D4048;
+    color: white;
+}
+
+.input_search {
+    box-sizing: border-box;
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+    height: 23px;
+    width: 187px;
+}
+
+.input_search:active {
+    border: medium none;
+    background-image: none;
+    background: transparent;
+    float: left;
+}
+
+input {
+    outline: none;
+}
+
+select {
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.visually_img {
+    width: 43px;
+    height: 43px;
+}
+
+.search_img {
+    width: 25px;
+    height: 25px;
+}
+
+.profile_img {
+    width: 47px;
+    height: 47px;
+
+}
+
+.header__search, .header__profile, .header__visually {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header__menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visually, .profile, .logo, .select_menu {
+    border: medium none;
+    float: left;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.select_menu {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url("../img/arrowMenu.png") no-repeat right center;
+    outline: 0;
+}
+
+.select_menu {
+    color: white;
+    width: 100px;
+}
+
+option {
+    width: 300px;
+}
+
+option {
+    background-color: #69755F;
+}
+
+option:active, option:hover {
+    background-color: #2D4048;
+}
+
+.visually_text {
+    color: white;
+    height: 15px;
+    font-size: 18px;
+}
+.p_text{
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+    color: white;
+    padding-top: 10px;
+}
+.main {
+    height: 100%;
+}
+input{
+    text-indent: 50px;
+}
+.main_container, .main_container_two {
+    margin: 0 auto;
+    height: 860px;
+    width: 1680px;
+    background-color: #748788;
+}
+.main_container_two{
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    padding-top: 100px;
+    color: black;
+    margin-left: 228px;
+}
+.entrance{
+    width: 1223px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+}
+
+.login, .password, .password_two, .email{
+    width: 767px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: #D9D9D9;
+    color: #2D4048;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+.prof{
+    padding-top: 100px;
+    margin-left: 127px;
+}
+
+.login::placeholder,.password::placeholder, .password_two::placeholder,.fullName::placeholder,.email::placeholder{
+    color: #2D4048;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+
+.verification_code{
+    width: 351px;
+    height: 251px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #748788;
+}
+.btn_form,.btn_form_data,.text_Img_Input{
+    width: 217px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background-color: #748788;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+.btn_form_data,.logout,.text_Img_Input{
+    width: 729px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_Img_Input{
+    width: 315px;
+    height: 54px;
+}
+.profile_data{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    width: 1245px;
+    margin: auto;
+}
+.data_user{
+    width: 787px;
+    height: 77px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    border: 3px solid white;
+    color: #2D4048;
+    padding: 20px;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+
+
+.login_password,.login_content{
+    display: flex;
+    flex-direction: row;
+    gap: 138px;
+    margin-top: 80px;
+}
+.login_content{
+    flex-direction: column;
+    gap: 30px;
+}
+.form_code_entrance{
+    padding-top: 90px;
+}
+.logout{
+    width: 150px;
+    height: 54px;
+    border: 3px solid white;
+    background-color: #748788;
+    margin-top: 50px;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+    border-radius: 20px;
+    text-align: center;
+}
+.main__block_item {
+    scroll-snap-align: center;
+}
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.main__block_four {
+    padding-top: 80px;
+    flex-direction: column;
+    background-color: #949156;
+    align-items: center;
+}
+
+.block_one_img {
+    width: 55%;
+}
+
+.child_img {
+    width: 103.5%;
+}
+
+.block_one_textcontent {
+    margin-top: 80px;
+    width: 35%;
+    height: 823px;
+    margin-right: 5%;
+}
+
+.title_block, .title_block_two {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text_block, .text_block_two, .text_block_three, .block_text_four {
+    font-family: "Heebo", sans-serif;
+    color: #FFF;
+    text-align: justify;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%;
+}
+
+.text_block {
+    margin-top: 40px;
+}
+
+.block__slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mother_img {
+    width: 100%;
+    height: 40%;
+}
+
+.title_nav {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown-toggle, .dropdown-toggle:active {
+    color: white;
+}
+
+.block_two_textcontent {
+    margin: 20px auto;
+    width: 1303px;
+}
+
+.text_block_two {
+    height: 360.335px;
+}
+
+.text_block_three {
+    margin-top: 40px;
+}
+
+.block_three_textcontent {
+    width: 765px;
+    height: 966.58px;
+}
+
+.block_three_img {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.three_img {
+    width: 470px;
+    height: 282.94px;
+}
+
+.item3 {
+    align-self: start;
+}
+
+.item2 {
+    align-self: center;
+}
+
+.item1 {
+    align-self: end;
+}
+
+.footer__container {
+    width: 100%;
+    height: 8%;
+}
+
+.siderImg {
+    width: 979px;
+    height: 538px;
+}
+
+.block_text_four {
+    margin-top: 20px;
+    width: 1487px;
+    height: 327px;
+}
+
+.carousel {
+    width: 979px;
+    height: 538px;
+    z-index: 0;
+}
+
+.footer__container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.footer__content {
+    height: 18px;
+}
+
+.footer_text {
+    margin-left: 20px;
+    color: #000;
+    text-align: justify;
+    font-family: "Ubunty", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon-heart {
+    width: 20px;
+    height: 20px;
+}
+
+
+.entrance_message{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.message_block{
+    padding-top: 45px;
+}
+.message_blocks_content{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.login, .password, .password_two, .email{
+    width: 767px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: #D9D9D9;
+    color: #2D4048;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+.description,.emailMes,.adres,.FullName{
+    width: 767px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: #D9D9D9;
+    color: #2D4048;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 34.344px */
+}
+.FullName::placeholder,.emailMes::placeholder,.adres::placeholder{
+    color: #2D4048;
+}
+.description{
+    color: black;
+    width: 630px;
+    height: 318px;
+}
+.form_mes {
+    padding-top: 100px;
+    color: black;
+    margin: 0 auto;
+}
+.description,.emailMes,.adres,.FullName{
+    color: #2D4048;
+}
+.message{
+    width: 640px;
+}
+.p_text_content{
+    width: 1525px;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.verific{
+    width: 280px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #2D4048;
+    width: 1525px;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: #2D4048;
+    width: 1525px;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #2D4048;
+    width: 1525px;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+
+}
+
+textarea:-ms-input-placeholder {
+    color: #2D4048;
+    width: 1525px;
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 57.24px */
+
+}
+
+input:invalid:not(:placeholder-shown) + .form__error {
+    margin: -30px 20px;
+    display: block;
+}
+.form__error {
+    color: red;
+    text-align: left;
+    display: none;
+    font-size: 20px;
+}
+.img{
+    visibility: hidden;
+    position: absolute;
+}
+.img_profile_exit,.img_admin_exit{
+    width: 355px;
+}
+.data_user_img{
+    border: 2px solid white;
+    width:353px;
+    height:353px;
+}
+.profile_content,.admin_content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.registration_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 770px;
+}
+.admin_data{
+    width: 500px;
+}
+.table_users{
+    padding-left: 30px;
+}
+.img_admin{
+    width: 30px;
+    height: 30px;
+}

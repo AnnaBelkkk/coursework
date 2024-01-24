@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/bear.svg">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/adaptiv.css">
+    <script defer src="script/bootstrap.bundle.min.js"></script>
+    <script defer type="module" src="script/script.js"></script>
+    <script defer type="module" src="script/scriptFunctional.js"></script>
+    <script defer type="module" src="script/scriptPageTransition.js"></script>
+    <title>Семейный центр</title>
+</head>
+<body id="element">
+<div class="wrapper container-fluid">
+    <header class="header">
+        <div class="container__header">
+            <div tabindex='0'  class="header__menu">
+                <div class="header_logo" aria-haspopup="logo" tabindex='0' aria-label="логотип">
+                    <button class="logo" aria-label="перейти на главную">
+                        <a href="index.html">
+                            <img class="header_img" src="./img/logo.png" alt="Логотип">
+                        </a>
+                    </button>
+                </div>
+                <nav class="header__navigationheader__select">
+                    <li class="header__select_item">
+                        <a class="title_nav" id="select_home" href="index.html" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false"> Главная </a>
+                        <img class="select_img" src="./img/arrowMenu.png">
+                        <ul class="dropdown-menu" aria-label="открыть меню">
+                            <li><a class="dropdown-item" href="index.html" id="home">Главная</a></li>
+                            <li><a class="dropdown-item" id="news" href="pageTransition/index.html?=news">Новости</a>
+                            </li>
+                            <li><a class="dropdown-item" id="intelligence"
+                                   href="pageTransition/index.html?=intelligence">Сведения об организации социального
+                                обслуживания</a></li>
+                            <li><a class="dropdown-item" id="organization"
+                                   href="pageTransition/index.html?=organization">Организация питания в образовательной
+                                организации</a></li>
+                            <li><a class="dropdown-item" id="spiritual" href="pageTransition/index.html?=spiritual">Духовное
+                                воспитание</a></li>
+                            <li><a class="dropdown-item" id="service" href="pageTransition/index.html?=service">Служба
+                                сопровождения замещающих семей</a></li>
+                            <li><a class="dropdown-item" id="medical" href="pageTransition/index.html?=medical">Медицинское
+                                обслуживание</a></li>
+                            <li><a class="dropdown-item" id="education" href="pageTransition/index.html?=education">Образовательные
+                                программы</a></li>
+                            <li><a class="dropdown-item" id="social" href="pageTransition/index.html?=social">Социальные
+                                услуги</a></li>
+                            <li><a class="dropdown-item" id="thank" href="pageTransition/index.html?=thank">Благодарности</a>
+                            </li>
+                            <li><a class="dropdown-item" id="contacts" href="pageTransition/index.html?=contacts">Контакты</a>
+                            </li>
+                            <li><a class="dropdown-item" id="help" href="pageTransition/index.html?=help">Помощь</a>
+                            </li>
+                            <li><a class="dropdown-item" id="schedule" href="pageTransition/index.html?=schedule">График
+                                посещения учреждения</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" id="electronic" href="http://project/electronicUsing.php">Электронная
+                                приемная</a></li>
+                            <li><a class="dropdown-item" id="recording" href="http://project/entrance.php">Записаться в
+                                приемную комиссию</a></li>
+                        </ul>
+                    </li>
+                </nav>
+
+                <div class="header__search">
+                    <form id="search_form" aria-haspopup="поиск по сайту" alt="поиск по сайту" aria-label="поиск по сайту">
+                        <input type="search" tabindex='0' pattern="[А-ЯЁа-яё]+" aria-label="поле ввода" class="input_search" name="text" placeholder="Поиск по сайту" required>
+                        <span tabindex='0' class="form__error">только буквы</span>
+                        <input tabindex='0' aria-label="кнопка для выполнения поиска" type="submit" class="search_img">
+                    </form>
+                </div>
+                <div class="header__profile" style="display: none">
+                    <button class="profile" tabindex='0' alt="переход в профиль или регистрация" aria-label="переход в профиль или регистрация">
+                        <a href="http://project/entrance.php"><img class="profile_img" src="./img/profile.svg"></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main_container">
+            <div class="main__blocks" aria-label="основная информация">
+                <div class="block_item main__block_one">
+                    <div class="block_one_img">
+                        <div tabindex='0' class="img__text">Семейный центр имени А.И. Мещерякова</div>
+                        <img class="child_img" src="img/child.webp">
+                    </div>
+                    <div class="block_one_textcontent">
+                        <h2 tabindex='0' class="title_block">Наш дом <img src="img/Sun.svg"></h2>
+                        <p tabindex='0' class="text_block">Государственное бюджетное учреждение социального обслуживания
+                            Московской
+                            области «Семейный центр имени А.И. Мещерякова» – единственное и уникальное, в своем роде,
+                            учреждение, основано в 1962 году. В его организации и становлении принимали участие
+                            известные ученые И.А.Соколянский и А.И.Мещеряков.
+                            </br>
+                            </br>
+                            В ГБСУСО МО «Семейный центр имени А.И. Мещерякова» обучаются дети с множественными тяжелыми
+                            нарушениями развития, педагоги в своей коррекционной и учебно-воспитательной работе
+                            опираются на более чем 30 различных учебных программ, часть из которых созданы сотрудниками
+                            ГБСУСО МО «Семейный центр имени А.И. Мещерякова» или с их участием.
+                            Учитывать все особенности каждого конкретного ребенка – очень сложная задача в связи с общей
+                            тенденцией к утяжелению структуры дефекта поступающих к нам воспитанников. </p>
+                    </div>
+                </div>
+                <div class="block_item main__block_two">
+                    <div class="block_two_img">
+                        <img class="mother_img" src="img/mother.jpg">
+                    </div>
+                    <div class="block_two_textcontent">
+                        <h2 tabindex='0' class="title_block_two">Наша задача <img class="icon" src="img/pen.svg"></h2>
+                        <p tabindex='0' class="text_block_two"> На протяжении всего периода существования учреждение решает задачи
+                            помощи детям-инвалидам по зрению и слуху, а также детям с множественными нарушениями
+                            развития, нуждающимся в уходе, бытовом и социально-медицинском обслуживании,
+                            реабилитационных услугах, обучении и воспитании, социально-трудовой реабилитации.
+                            Основные цели ГБСУСО МО «Семейный центр имени А.И. Мещерякова»: </br>
+                            <img src="img/Polygon.png"> предоставлять воспитанникам наилучшие условия для обучения,
+                            основанного на их собственном опыте и деятельности разного рода, а также воспитывать чувство
+                            самостоятельности и независимости в социальных и бытовых ситуациях.
+                            В настоящее время в ГБСУСО МО «Семейный центр имени А.И. Мещерякова» обучаются и
+                            воспитываются более 200 детей с разной структурой нарушений развития.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="block_item main__block_three">
+                    <div class="block_three_textcontent">
+                        <p  tabindex='0' class="text_block_three"><img class="icon-heart" src="img/heart.svg"> Все дети в зависимости
+                            от структуры нарушений и возраста распределяются по отделениям:
+                            </br>
+                            </br>
+                            <img src="img/Polygon.png"> Учебно - диагностическое отделение для детей с множественными
+                            тяжелыми нарушениями развития младшего возраста ( от 3 до 8 лет). В это отделение маленькие
+                            дети чаще всего поступают из дома. Основные задачи: установление контакта, «подключение» к
+                            ребенку; работа с родителями.
+                            </br>
+                            </br>
+                            <img src="img/Polygon.png"> Социально - коррекционное отделение для детей с множественными
+                            тяжелыми пороками развития и проблемным поведением (от 8 до 14 лет). Основная задача:
+                            коррекция проблемного поведения с применением специальной методики.
+                            </br>
+                            </br>
+                            <img  src="img/Polygon.png"> Учебно - реабилитационное отделение для детей с нарушениями
+                            развития, имеющими проблемы в обучении (от 8 до 14 лет). Основная задача: подготовка
+                            воспитанников к интеграции в другие учебные заведения (школы слепых, глухих, умственно
+                            отсталых детей, колледжи и институты).
+                            </br>
+                            </br>
+                            <img src="img/Polygon.png"> Отделение социально-трудовой реабилитации для подростков с
+                            ограниченными возможностями развития.
+                            В это отделение переводятся воспитанники, достигшие 14 лет. Основные задачи: подготовка
+                            воспитанников к самостоятельной независимой жизни, предпрофессиональная подготовка и
+                            интегрирование в общество.
+
+                        </p>
+                    </div>
+                    <div class="block_three_img">
+                        <img class="three_img item1" src="img/blue1.webp">
+                        <img class="three_img item2" src="img/blue2.webp">
+                        <img class="three_img item3" src="img/blue3.webp">
+                    </div>
+                </div>
+                <div class="block_item main__block_four" aria-haspopup="слайдер">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="siderImg" src="./img/slhome1.webp" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="siderImg" src="./img/slhome2.webp" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="siderImg" src="./img/slhome3.webp" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p tabindex='0' class="block_text_four">
+                        В ГБСУСО МО «Семейный центр имени А.И. Мещерякова» создана особая атмосфера, которая ломает
+                        устоявшиеся представления о ГБСУСО МО «Семейный центр имени А.И. Мещерякова», где неуютно и
+                        холодно детям. Наш дом – теплый! В нем создана своя, особенная, уютная атмосфера с зонами учебы,
+                        отдыха, живой природы. Прекрасно оборудованные классы, мастерские, библиотека, специальные
+                        кабинеты (медицинские, аудиологические, физиологические и другие), спортивные и тренажерные
+                        залы, бассейн, занятия иппотерапией - все способствует лучшему соотношению деятельности и отдыха
+                        детей. Здесь часто устраиваются общие праздники, фольклорные фестивали, дни рождения ребят,
+                        театральные представления, которые надолго ос-таются в памяти и отражаются воспитанниками в
+                        своих авторских книгах и в журнале «Наша жизнь», который издается уже около 20 лет. Таким
+                        праздникам, которые устраивают наши педагоги и друзья-волонтеры детям, позавидуют и
+                        профессионалы.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container" aria-label="дополнительная информация">
+            <div class="block_item footer__content">
+                <p tabindex='0' class="footer_text">
+                    Государственное бюджетное стационарное учреждение социального обслуживания Московской области
+                    «Семейный центр имени А.И. Мещерякова».
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

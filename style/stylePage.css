@@ -1,0 +1,291 @@
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/heebocyrillic.ttf");
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main_container {
+    width: 90%;
+    height: 100%;
+    flex: 1 0 auto;
+}
+.content_block{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.main__block {
+    margin:0 auto;
+    padding-top: 100px;
+    /*height: 100%;*/
+    padding-bottom: 100px;
+}
+.news{
+    background-color: #6C584F;
+    height: 5541px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+
+.card_content_news {
+    width: 1336px;
+    height: 392px;
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+    align-items: center;
+    gap: 50px;
+}
+.cars_intelligence{
+    height: 100%;
+}
+.img_news{
+    width: 382px;
+    height: 382px;
+    border-radius: 30px;
+
+}
+.arrow_back,.arrow_back_Two{
+    border: medium none;
+    float: left;
+    align-items: center;
+    background-color: transparent;
+    width: 20px;
+}
+.arrow_back_Two{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    gap: 20px;
+}
+.itemttile, .itemtitlebefore{
+    color: #FFF;
+    text-align: justify;
+    font-family: "Heebo", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.1%; /* 45.792px */
+}
+.itemtext{
+    color: #F9F9F9;
+    font-family: "Heebo", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    /*line-height: normal;*/
+    line-height: 143.1%;
+}
+.text_news,.main_contacts, .images_structure{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_content_medical{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.main_intelligence, .main_contacts, .main_base,  .main_structure, .main_documents, .main_educations,.main_educationStandart,.main_teacher,.main_security, .main_scholarship,.main_available,.main_international{
+    background-color: #363B39;
+}
+.contacts{
+    width: 1293px;
+}
+
+.intelligence,.organization,.spiritual, .social, .education, .help, .schedule,.thank, .medical, .contacts,.base,.structure , .documents,.educations,.educationStandart,.teacher,.security,.scholarship,.available,.international{
+    width: 1223px;
+    gap: 20px;
+}
+.img_scholarship{
+    padding-top: 20px;
+}
+.text_intelligence, .text_organization, .text_spiritual, .text_social, .text_help, .text_medical. .text_base, .text_structure, .text_documents,.text_educations{
+    font-size: 32px;
+}
+.itemtitlebefore{
+    font-size: 40px;
+}
+
+.main_organization,.main_spiritual, .main_service,.main_medical,.main_social,.main_education, .main_help,  .main_schedule,.main_thank{
+    background-color: #6C584F;
+}
+
+.main_intelligence,.main_organization, .main_service, .main_thank,.main_contacts,.main_schedule,.main_help,.main_base, .main_educationStandart,.main_teacher, .main_security, .main_international{
+    height: 100%;
+}
+
+.spiritual{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.carousel_spiritual {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 972px;
+    height: 604px;
+}
+.title_block_social, .title_block_help{
+    padding-bottom: 60px;
+}
+.siderImg_spiritual {
+    width: 972px;
+    height: 604px;
+}
+.slideImg_thank, .carousel_thank,.thank{
+    height: 600px;
+    width: 424px;
+}
+.carousel_available{
+    width: 1217px;
+    height: 538px;
+    z-index: 0;
+    padding-left: 45px;
+}
+
+.text_service{
+    width: 612px;
+}
+.main_base{
+    height: 1877px;
+}
+.main_teacher{
+    height: 100%;
+}
+.text_base, .text_educations, .text_structure, .text_documents, .text_educationStandart, .text_teacher, .text_security, .text_scholarship,.text_available {
+    line-height: 160%;
+    text-align: justify;
+}
+.text_content_available{
+    padding-top: 100px;
+}
+.base{
+    gap: 60px;
+}
+#documents, #educations, #educationStandart, #teacher, #security, #scholarship{
+    padding-bottom: 60px;
+}
+.images_structure{
+    padding-top: 130px;
+    align-items: center;
+    gap: 150px;
+    margin: 0 auto;
+}
+
+.title_block_base,.title_block_documents,.title_block_structure ,.title_block_educations, .title_block_educationStandart,.title_block_teacher,.title_block_security, .title_block_scholarship, .title_block_available,.title_block_international,.title_block_education{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-left: -40px;
+}
+.card_content_service{
+    flex-direction: row;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 70px auto;
+}
+.card_content_medical{
+    flex-direction: column-reverse;
+}
+.images_medical{
+    width: 1240px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-bottom: 60px;
+}
+.images_contacts{
+    width: 500px;
+    height: 300px;
+    align-self: flex-end;
+    margin-top: -250px;
+}
+.card_content_contacts{
+    width: 580px;
+
+}
+.text_intelligence{
+    text-decoration:underline;
+}
+
+/*.VersionOfVisuallyTitle{*/
+/*    font-size: 50px;*/
+/*    background-color: black;*/
+/*}*/
+/*.VersionOfVisuallyText{*/
+/*    font-size: 25px;*/
+/*    background-color: black;*/
+/*}*/
+/*.VersionOfVisuallyTextTwo{*/
+/*    margin: 86px auto;*/
+/*    width: 1123px;*/
+/*    height: 823px;*/
+/*    font-size: 30px;*/
+/*}*/
+/*.VersionOfVisuallyTextThree{*/
+/*    font-size: 30px;*/
+/*    background-color: black;*/
+/*    height: 995px;*/
+/*}*/
+/*.VersionOfVisuallyTextFour{*/
+/*    font-size: 30px;*/
+/*    background-color: black;*/
+/*    width: 1249px;*/
+/*}*/
+/*.VersionOfVisuallyTextThreeBlock{*/
+/*    font-size: 30px;*/
+/*    background-color: black;*/
+/*    height: 995px;*/
+/*    padding-top: 350px;*/
+/*}*/
+/*.visuallytextmode{*/
+/*    background-color: black;*/
+/*    font-size: 25px;*/
+/*    color: white;*/
+/*}*/
+/*.displayNone{*/
+/*    display: none;*/
+/*}*/
+/*.VersText{*/
+/*    font-size: 30px;*/
+/*}*/
+/*.blackVersionBackgraund{*/
+/*    background-color: black;*/
+/*}*/
+/*.VersionBlackText{*/
+/*    font-size: 30px;*/
+/*}*/
+.footer{
+    width: 100%;
+    /*height: 8%;*/
+    flex: 0 0 auto;
+    display: flex;
+}
+.img_scholarship, .img_structure{
+    width:945px ;
+}
