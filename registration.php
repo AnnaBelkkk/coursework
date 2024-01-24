@@ -95,7 +95,7 @@ if ($_SESSION['user']) {
                     <span class="form__error">поле должно содержать не более 8 символов и латинские буквы</span>
                     <label for="form-file" class="imgInput">
                         <div tabindex="0" class="text_Img_Input">выберете файл</div>
-                    <input tabindex="0" type="file" id="form-file" class="img" name="img" accept=".jpg, .jpeg, .png" required >
+                    <input tabindex="0" type="file" id="form-file" class="img" name="img" accept=".jpg, .jpeg, .png">
                     </label>
                         <span  tabindex="0" class="form__error_Img">ИЗОБРАЖЕНИЕ НЕ ДОЛЖНО ПРЕВЫШАТЬ РАЗМЕР 1МБ</span>
                     </div>

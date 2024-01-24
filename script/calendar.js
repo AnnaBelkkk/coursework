@@ -122,7 +122,7 @@ if (btn_send_satus != null) {
         };
         xhr.send();
     });
-    setInterval(updateStatus, 2000)
+    setInterval(updateStatus, 1000)
 } else {
     console.log('здесь эта функция недоступна')
 }
@@ -152,5 +152,5 @@ function updateBtn() {
         clearInterval()
     } else {
         setInterval( function (){
-        }, 2000)}
+        }, 1000)}
 }

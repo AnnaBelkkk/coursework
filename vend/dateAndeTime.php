@@ -5,9 +5,6 @@ $connect = mysqli_connect('localhost', 'annabelk', '201500Anna', 'testCoursework
 if (!$connect) {
     die('error connect to database');
 }
-$tableUse2 = mysqli_query($connect, "SELECT * FROM `usersCoursework` WHERE  `id` = '$id'");
-$user = mysqli_fetch_assoc($tableUse2);
-$cabinet = $user['cabinet'];
 
 function updateStatus($status, $datetime) {
     $connect = mysqli_connect('localhost', 'annabelk', '201500Anna', 'testCoursework');

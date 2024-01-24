@@ -71,7 +71,17 @@ updatePagination();
 
 
 
+let form_file = document.getElementById('form-file')
+if (form_file != null){
+    let btn_form = document.querySelector('.btn_form')
+    btn_form.addEventListener('click', function (e){
+        let form__error_Img = document.querySelector('.form__error_Img')
+        form__error_Img.textContent = 'загрузите файл'
+        form__error_Img.style.color = 'red'
+        e.preventDefault()
+    })
 
+}
 
 //let imgSize = atob(base64String)
 let addform = document.querySelector('.form')

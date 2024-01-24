@@ -962,15 +962,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
     text-indent: 40px;
 }
 
-#search_form{
-    display: flex;
-    flex-direction: row;
-    width: 360px;
-}
-input:invalid:not(:placeholder-shown) + .form__error {
-    margin: -4px 20px;
-    display: block;
-}
+
 
 
 
